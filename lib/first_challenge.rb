@@ -16,7 +16,7 @@ def first_challenge
 
   #your code here
   binding.pry
-  contacts["Freddy Mercury"]
+  contacts["Freddy Mercury"].delete_if("strawberry")
 
   #remember to return your newly altered contacts hash!
   contacts
