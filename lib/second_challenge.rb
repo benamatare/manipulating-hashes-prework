@@ -11,6 +11,6 @@ def second_challenge
 
   #code your solution here!
 groceries.values
-  
+bindong.pry
 
 end
