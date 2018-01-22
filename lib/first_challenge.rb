@@ -14,9 +14,9 @@ def first_challenge
   }
 
   #your code here
-contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
-
-puts contacts
+contacts.each do |person, data|
+puts "#{person}: #{data}"
+end
 
   #remember to return your newly altered contacts hash!
   contacts
